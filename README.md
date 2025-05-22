@@ -1,1 +1,1 @@
-**Welcome to my respository for codingal python projects**
+Welcome to my respository for codingal python projects
