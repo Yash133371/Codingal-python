@@ -1,0 +1,11 @@
+empty_tuple = ()
+print(empty_tuple)
+my_tuple = ("Apple", "Banana", "Cherry")
+print(my_tuple)
+nested_tuple = (("Apple", "Banana", "Cherry"), (1, 2, 3))
+print(nested_tuple)
+print(nested_tuple[0])
+print(nested_tuple[1])
+print(my_tuple[1:2])
+for item in my_tuple:
+    print(item)
