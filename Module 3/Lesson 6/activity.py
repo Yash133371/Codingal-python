@@ -48,7 +48,7 @@ def topwin():
 
 
     label = tk.Label(top, text="Enter total amount")
-    entry = tk.Entry()
+    entry = tk.Entry(top)
     lbl = tk.Label(top, text="Here are number of notes for each denomination")
     l1 = tk.Label(top, text="2000", bg="lightgrey")
     l2 = tk.Label(top, text="500", bg="lightgrey")
