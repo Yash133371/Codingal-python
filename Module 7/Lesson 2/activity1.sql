@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS PRODUCTS (
+    PRODUCT_ID TEZT,
+    PRODUCT_NAME TEXT,
+    SUPPLIER_ID TEXT,
+    CATEGORY_ID TEXT,
+    UNIT TEXT,
+    PRICE REAL
+);
+
+INSERT INTO PRODUCTS (PRODUCT_ID, PRODUCT_NAME, SUPPLIER_ID, CATEGORY_ID, UNIT, PRICE)
+VALUES
+    ("1", "Chais", "1", "1", "10 boxes", 18),
+    ("2", "Chang", "1", "1", "Bottles", 19),
+    ("3", "Syrup", "1", "2", "550 ML bottles", 10);
+
+SELECT COUNT(PRODUCT_ID) AS product_count
+from PRODUCTS;
+
+SELECT AVG(PRICE) AS avg_price
+from PRODUCTS;
+
+SELECT SUM(PRICE) AS total_price
+from PRODUCTS;
